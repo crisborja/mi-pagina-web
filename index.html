@@ -1,142 +1,239 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primer Entregable</title>
-    <link rel="stylesheet" href="CSS/Styles.css">
+    <title>Cristian Borja - Presentación Personal</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <header>
-        <h1>UN POCO SOBRE MI</h1>
+    <header class="main-header">
+        <div class="header-content">
+            <h1>CRISTIAN BORJA GARRIDO</h1>
+            <P class="header-subtitle">Estudiante de Mecatrónica & Especialista en Manufactura de Precisión</P>
+        </div>
     </header>
-        <section class="sobremi">
-            <h2>
-                Presentacion
-            </h2>
-            <p>
-                Hola, mi nombre es Cristian Borja, soy estudiante de Mecatronica de la IUB y me apasiona el modelado 3D, los deportes y la comida.En esta página comparto un poco sobre mí y mis hobbies.
-            </p>
-            <div class="imagen1">
-            <img src="/Imagenes/WhatsApp Image 2025-11-25 at 6.04.52 PM.jpeg" alt="">
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-menu">
+                <a href="#sobremi">Sobre Mí</a>
+                <a href="#pasatiempos">Pasatiempos</a>
+                <a href="#pendiente">Metas</a>
+                <a href="#horario">Horario</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="nav-buttons">
+                <a href="https://www.instagram.com/cris_boga00/" class="btn-login" target="_blank">Sígueme</a>
+                <a href="#contacto" class="btn-primary">Contactar</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2>PRECISIÓN Y EXCELENCIA</h2>
+            <p class="hero-subtitle">Innovación en cada proyecto, calidad en cada detalle</p>
+            <a href="#sobremi" class="btn-hero">Conóceme Mejor</a>
+        </div>
+    </section>
+
+    <div class="floating-bar">
+        <div class="categories">
+            <span>Mecatrónica</span>
+            <span>CNC</span>
+            <span>Modelado 3D</span>
+            <span>Deportes</span>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <section class="sobremi content-card" id="sobremi">
+            <h2>SOBRE MÍ</h2>
+            <div class="card-content">
+                <div class="profile-section">
+                    <div class="text-content">
+                        <h3>Presentación Personal</h3>
+                        <p>Hola, mi nombre es Cristian Borja, soy estudiante de Mecatrónica de la IUB y me apasiona el modelado 3D, los deportes y la comida. Especializado en manufactura de precisión y operación CNC.</p>
+                    </div>
+                    <div class="imagen1">
+                        <img src="/Imagenes/WhatsApp Image 2025-11-25 at 6.04.52 PM.jpeg" alt="Cristian Borja">
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="pasatiempos">
-            <h2>
-                Pasatiempos
-            </h2>
-                <ul>
-                    <li>Hacer ejercicio</li>
-                    <li>Aprender a modelar en 3D</li>
-                    <li>Jugar futbol</li>
-                    <li>Cocinar</li>
-                </ul>
-               <section class="imagenes">
-                <div class="pasatiempos-foto">
-                    <img src="/Imagenes/doncangrejo.jpg" alt="Ejercicio">
-                    <p>Hacer ejercicio</p>
+        <section class="pasatiempos content-card" id="pasatiempos">
+            <h2>PASATIEMPOS</h2>
+            <div class="card-content">
+                <h3>Mis Actividades Favoritas</h3>
+                <div class="hobbies-container">
+                    <div class="hobbies-list">
+                        <ul>
+                            <li>Hacer ejercicio</li>
+                            <li>Aprender a modelar en 3D</li>
+                            <li>Jugar fútbol</li>
+                            <li>Cocinar</li>
+                        </ul>
+                    </div>
+                    <div class="hobbies-gallery">
+                        <div class="pasatiempos-foto">
+                            <img src="/Imagenes/doncangrejo.jpg" alt="Ejercicio">
+                            <p>Hacer ejercicio</p>
+                        </div>
+                        <div class="pasatiempos-foto">
+                            <img src="/Imagenes/2022073011481415.jpg" alt="Modelado 3D">
+                            <p>Modelar en 3D</p>
+                        </div>
+                        <div class="pasatiempos-foto">
+                            <img src="/Imagenes/videojuego-de-supercampeones-3.jpg" alt="Jugar fútbol">
+                            <p>Jugar fútbol</p>
+                        </div>
+                        <div class="pasatiempos-foto">
+                            <img src="/Imagenes/Image_fx (5).png" alt="Cocinar">
+                            <p>Cocinar</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="pasatiempos-foto">
-                    <img src="/Imagenes/2022073011481415.jpg" alt="Modelao3D">
-                     <p>Modelar en 3D</p>
-                </div>
-                <div class="pasatiempos-foto">
-                    <img src="/Imagenes/videojuego-de-supercampeones-3.jpg" alt="Jugar futbol">
-                    <p>Jugar futbol</p>
-                </div>
-                <div class="pasatiempos-foto">
-                    <img src="/Imagenes/Image_fx (5).png" alt="Cocinar">
-                    <p>Cocinar</p>
-                </div>
-               </section>
+            </div>
         </section>
-        <section class="pendiente">
-            <h2>
-                Cosas por hacer
-            </h2>
-            <ol>
-                <li>Ponerme a estudiar estatica para no perder la materia</li>
-                <li>Ponerme al dia con los entregables del curso de programacion</li>
-                <li>Terminar de diseñar un producto para vender en Navidad</li>
-                <li>Limpiar mi habitacion</li>
-            </ol>
-        </section>
-        <section class="tabla">
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Hora</th>
-                        <th>Lunes</th>
-                        <th>Martes</th>
-                        <th>Miercoles</th>
-                        <th>Jueves</th>
-                        <th>Viernes</th>
-                        <th>Sabado</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>8:00 am - 12:30</td>
-                        <td>Curso de programacion</td>
-                        <td>Curso de programacion</td>
-                        <td>Curso de programacion</td>
-                        <td>Curso de programacion</td>
-                        <td>Curso de programacion</td>
-                        <td>Curso de programacion</td>
-                    </tr>
-                    <tr>
-                        <td>12:30 - 6:00 pm</td>
-                        <td>Tiempo libre</td>
-                        <td>Tiempo libre</td>
-                        <td>Tiempo libre</td>
-                        <td>Tiempo libre</td>
-                        <td>Tiempo libre</td>
-                        <td>Tiempo libre</td>
-                    </tr>
-                    <tr>
-                        <td>6:00pm - 8:00 pm</td>
-                        <td>Entrenar</td>
-                        <td>Entrenar</td>
-                        <td>Clase de estatica</td>
-                        <td>Entrenar</td>
-                        <td>Entrenar</td>
-                        <td>Dormir</td>
-                    </tr>
-                    <tr>
-                        <td>8:00 pm - 10:00 pm</td>
-                        <td>N/a</td>
-                        <td>N/a</td>
-                        <td>Clase de estatica</td>
-                        <td>N/a</td>
-                        <td>N/a</td>
-                        <td>N/a</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        <section class="contacto">
-            <h2>Contáctame</h2>
-                <form>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre"><br><br>
 
-                    <label for="motivo">Motivo de contacto:</label>
-                    <input type="text" id="motivo" name="motivo"><br><br>
-
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" id="email" name="email"><br><br>
-
-                    <button type="submit">Enviar</button>
-                </form>
+        <section class="pendiente content-card" id="pendiente">
+            <h2>METAS Y OBJETIVOS</h2>
+            <div class="card-content">
+                <h3>Próximos Desafíos</h3>
+                <ol>
+                    <li>Ponerme a estudiar estática para no perder la materia</li>
+                    <li>Ponerme al día con los entregables del curso de programación</li>
+                    <li>Terminar de diseñar un producto para vender en Navidad</li>
+                    <li>Limpiar mi habitación</li>
+                </ol>
+            </div>
         </section>
-        <footer>
-            <section class="redes">
-                <h2>Mis Redes Sociales</h2>
-                <a href="https://github.com/crisborja" target="_blank">GitHub</a> |
-                <a href="https://www.instagram.com/cris_boga00/" target="_blank">instagram</a>
-                <a href="https://www.youtube.com/watch?v=dBb060OPegg&list=RDEMC4TM66Zv1SZw2fv-trQfRw&start_radio=1" target="_blank">Relajese un poco</a>
-            </section>
-        </footer>
+
+        <section class="estudios content-card" id="estudios">
+            <h2>FORMACIÓN ACADÉMICA</h2>
+            <div class="card-content">
+                <h3>Educación Técnica y Universitaria</h3>
+                <ol>
+                    <li><strong>SENA:</strong> Técnico en Mecanizado</li>
+                    <li><strong>Institución Universitaria de Barranquilla (IUB):</strong> Técnico en Mantenimiento Electromecánico</li>
+                    <li><strong>IUB (En curso):</strong> Ingeniería en Mecatrónica</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="experiencia content-card" id="experiencia">
+            <h2>EXPERIENCIA LABORAL</h2>
+            <div class="card-content">
+                <h3>Tornero & Operador CNC</h3>
+                <p>Especializado en el manejo de maquinaria industrial de precisión, fabricación de componentes mecánicos y programación de equipos CNC para producción en serie.</p>
+            </div>
+        </section>
+
+        <section class="horario content-card" id="horario">
+            <h2>HORARIO SEMANAL</h2>
+            <div class="card-content">
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hora</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miércoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                                <th>Sábado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>8:00 am - 12:30</td>
+                                <td>Curso de programación</td>
+                                <td>Curso de programación</td>
+                                <td>Curso de programación</td>
+                                <td>Curso de programación</td>
+                                <td>Curso de programación</td>
+                                <td>Curso de programación</td>
+                            </tr>
+                            <tr>
+                                <td>12:30 - 6:00 pm</td>
+                                <td>Tiempo libre</td>
+                                <td>Tiempo libre</td>
+                                <td>Tiempo libre</td>
+                                <td>Tiempo libre</td>
+                                <td>Tiempo libre</td>
+                                <td>Tiempo libre</td>
+                            </tr>
+                            <tr>
+                                <td>6:00pm - 8:00 pm</td>
+                                <td>Entrenar</td>
+                                <td>Entrenar</td>
+                                <td>Clase de estática</td>
+                                <td>Entrenar</td>
+                                <td>Entrenar</td>
+                                <td>Descanso</td>
+                            </tr>
+                            <tr>
+                                <td>8:00 pm - 10:00 pm</td>
+                                <td>Estudio personal</td>
+                                <td>Estudio personal</td>
+                                <td>Clase de estática</td>
+                                <td>Estudio personal</td>
+                                <td>Estudio personal</td>
+                                <td>Tiempo libre</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto content-card" id="contacto">
+            <h2>CONTÁCTAME</h2>
+            <div class="card-content">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Información de Contacto</h3>
+                        <p><strong>Teléfono:</strong> 3144936161</p>
+                        <p><strong>Disponible para proyectos desafiantes</strong></p>
+                        
+                        <div class="redes-sociales">
+                            <h4>Mis Redes Sociales</h4>
+                            <a href="https://github.com/crisborja" target="_blank">GitHub</a> |
+                            <a href="https://www.instagram.com/cris_boga00/" target="_blank">Instagram</a> |
+                            <a href="https://www.youtube.com/watch?v=dBb060OPegg&list=RDEMC4TM66Zv1SZw2fv-trQfRw&start_radio=1" target="_blank">Relájese un poco</a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+
+                        <label for="motivo">Motivo de contacto:</label>
+                        <input type="text" id="motivo" name="motivo" required>
+
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                        <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Cristian Borja Garrido. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="Script/script.js"></script>
 </body>
 </html>
